@@ -5,7 +5,10 @@
 
 import random
 
-x = random.randint(1, 1000)
-y = random.randint(1, 1000)
-s = x * y
-p = x * y
+x = int(input("x"))
+y = int(input("y"))
+
+for i in range(x):
+    for j in range(y):
+        if x == i + j and y == i * j:
+            print(i, j)
