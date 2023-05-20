@@ -6,7 +6,7 @@ import random
 
 coins = int(input("Введите количество монет на столе: "))
 a = 0
-v = int(input("Введите количество монет, гербом вверх: "))
+v = random.randint(1, 10)
 
 for i in range(coins):
     if v == 1:
