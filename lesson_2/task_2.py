@@ -5,8 +5,9 @@
 
 import random
 
-x = int(input("x"))
-y = int(input("y"))
+
+x = int(input())
+y = int(input())
 
 for i in range(x):
     for j in range(y):
